@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.left{
+  box-shadow: 5px 10px 8px grey;
+  float: left;
+  width: 30%;
+  background-color: lavender;
+  margin-bottom: 10px;
+}
+.left #profile{
+  width: 290px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.a img{
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+.a{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.a img{
+  width: 30px;
+  height: 30px;
+}
+.b{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.b img{
+  width: 30px;
+  height: 30px;
+}
+.c{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.c img{
+  width: 30px;
+  height: 30px;
+}
+.d{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.d img{
+  width: 30px;
+  height: 30px;
+}
+.skills{
+  padding-top: 15px;
+}
+.skills img{
+  width: 32px;
+  height:32px;
+}
+.e{
+  background-color: grey;
+  width: 90%;
+  height: 15px;
+  border-radius: 30px;
+}
+.e p{
+  color: black;
+  text-align: center;
+}
+.ein{
+  background-color: greenyellow;
+  width: 90%;
+  height: 15px;
+  position: relative;
+  animation-name: my;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  border-radius: 30px;
+}
+.photo{
+  padding-top: 8px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+@keyframes my{
+  from{
+    width: 0;
+  }
+  to{
+    width: 90%;
+  }
+}
+.f{
+  background-color: grey;
+  width: 90%;
+  height: 15px;
+  border-radius: 30px;
+}
+.f p{
+  color: black;
+  text-align: center;
+}
+.fin{
+  background-color: greenyellow;
+  width: 85%;
+  height: 15px;
+  position: relative;
+  animation-name: you;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  border-radius: 30px;
+}
+.idea{
+  padding-top: 6.5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+@keyframes you{
+  from{
+    width: 0;
+  }
+  to{
+    width: 85%;
+  }
+}
+.g{
+  background-color: grey;
+  width: 90%;
+  height: 15px;
+  border-radius: 30px;
+}
+.g p{
+  color: black;
+  text-align: center;
+}
+.gin{
+  background-color: greenyellow;
+  width: 50%;
+  height: 15px;
+  position: relative;
+  animation-name: by;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  border-radius: 30px;
+}
+.idea{
+  padding-top: 6.5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+@keyframes by{
+  from{
+    width: 0;
+  }
+  to{
+    width: 50%;
+  }
+}
+.h{
+  background-color: grey;
+  width: 90%;
+  height: 15px;
+  border-radius: 30px;
+}
+.h p{
+  color: black;
+  text-align: center;
+}
+.hin{
+  background-color: greenyellow;
+  width: 100%;
+  height: 15px;
+  position: relative;
+  animation-name: pol;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  border-radius: 30px;
+}
+.idea{
+  padding-top: 6.5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+@keyframes pol{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+.right{
+  width: 67%;
+  float: right;
+  background-color: lavender;
+  box-shadow: 5px 10px 8px grey;
+}
+.work h1 img{
+  width: 32px;
+  height: 32px;
+  color: rgb(65, 56, 56);
+}
+.front h2{
+  font-size: 23px;
+  padding-top: 6px;
+}
+.front p img{
+  width: 30px;
+  height: 30px;
+}
+p.current{
+  color:rgb(27, 151, 145);
+  font-size: 22px;
+  padding-top: 7px;
+}
+.text{
+  font-size: 20px;
+}
+.edu{
+  margin-top: 10px;
+  float: right;
+  width: 67%;
+  background-color: lavender;
+  box-shadow: 5px 10px 8px grey;
+}
+.war h1 img{
+  width: 40px;
+  height: 40px;
+  color:rgb(27, 151, 145) ;
+}
+
+@media only screen and (max-width:900px){
+  .left{
+    width: 100%;
+    overflow: inherit;
+
+  }
+  .right{
+    width: 100%;
+  }
+  .edu{
+    width: 100%;
+  }
+}
